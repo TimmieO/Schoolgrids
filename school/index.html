@@ -1,0 +1,276 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Map box -->
+  <link href='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css' rel='stylesheet' />
+
+  <!-- Own -->
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+
+</head>
+<body class="bg-light">
+
+<div class="mp-menu-cont" id="mp_menu_container">
+  <div id="mp-menu-close">
+    <span data-feather="x"></span>
+  </div>
+  <div class="mp-dp-header text-center mb-5">
+    <h1 class="page-header-text">
+      My Portfolio
+    </h1>
+  </div>
+  <div class="mp-dp-body mt-2 text-center">
+    <div class="mp-dp-section">
+      <h2 class="mb-2 mp-dp-sect-head mb-8">
+        Navigation
+      </h2>
+
+      <h3 class="mp-dp-sect-item mb-5">
+        <a href="#">
+          About Site
+        </a>
+      </h3>
+      <h3 class="mp-dp-sect-item mb-5">
+        <a href="#aboutme">
+          About Me
+        </a>
+      </h3>
+      <h3 class="mp-dp-sect-item mb-5">
+        <a href="#projects">
+          Projects
+        </a>
+      </h3>
+      <h3 class="mp-dp-sect-item">
+        <a href="#contact">
+          Contact Me
+        </a>
+      </h3>
+      <h3 class="mp-dp-sect-item">
+        <a href="comprindex.html">
+          Small one page portfolio
+        </a>
+      </h3>
+    </div>
+  </div>
+
+</div>
+<div class="main-wrapper">
+
+
+    <header class="topbar" id="header">
+        <nav class="navbar">
+          <div class="navbar-header">
+            <span class="float-left text-center-s">
+              My Portfolio
+            </span>
+          </div>
+          <div class="nav-container d-none d-m-block" id="navigation">
+            <ul class="nav-links">
+                <li class="nav-item">
+                    <a class="nav-item-info">
+                        About page
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item-me" href="#aboutme">
+                        About me
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item-projects" href="#projects">
+                        Projects
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-item-contact" href="#contact">
+                        Contact me
+                    </a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-item-contact" href="comprindex.html">
+                  Small one page portfolio
+                </a>
+              </li>
+
+            </ul>
+          </div>
+          <div class="d-block d-m-none" id="mp-menu-btn">
+            <span data-feather="menu"></span>
+          </div>
+        </nav>
+    </header>
+    <main>
+      <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-lg-12 full-pg text-center mt-10 elem-center-ver">
+          <h1>PORTFOLIO</h1>
+          <h3>This is a portfolio made by Timmie</h3>
+        </div>
+
+      </div>
+        <!--About me-->
+      <div class="row">
+        <div class="full-pg aboutme" id="aboutme">
+            <div class="col-12 subj-header text-center">
+                <h1>ABOUT ME</h1>
+            </div>
+            <div class="col-3 aboutme-image">
+                <img src="img/profile.png">
+            </div>
+            <div class="col-9">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquam autem doloremque esse expedita, explicabo illum impedit incidunt modi nam nisi quidem rem, repellat repellendus saepe tenetur ullam vero vitae?</p>
+          </div>
+        </div>
+      </div>
+
+          <!-- Projects -->
+      <div class="row">
+        <div class="full-pg aboutme" id="projects">
+          <div class="col-12 subj-header text-center">
+              <h1>PROJECTS</h1>
+              <h2>My projects</h2>
+          </div>
+
+
+        <div class="col-s-12 col-m-6">
+         <div class="card studycard bg-card" >
+          <div class="card-body">
+            <div class="row no-gutters align-items-center">
+              <div class="col mr-2">
+                <h3 class="card-title font-weight-bold text-uppercase text-center mb-1">
+                  StudyDeluxe
+                </h3>
+                <h5 class="card-subtitle text-muted font-weight-bold text-uppercase text-center mb-2">
+                  Own project
+                </h5>
+                <p class="card-text text-center ">
+                  My own project
+                </p>
+                <p class="mb-0 text-center text-sm">more info</p>
+              </div>
+              <div class="col-auto">
+                <i class="fas fa-calendar fa-2x text-gray-300"></i>
+              </div>
+            </div>
+          </div>
+           <div class="studyproject text-center d-none" id="collapsestudy">
+             <p>
+              This project is a project that began at the start of the summer. <a href="https://www.studydeluxe.com/">StudyDeluxe</a>
+             </p>
+           </div>
+          </div>
+        </div>
+
+        <div class="col-s-12 col-m-6">
+            <div class="card passcard bg-card" >
+              <div class="card-body">
+                <div class="row no-gutters align-items-center">
+                  <div class="col mr-2">
+                    <h3 class="card-title font-weight-bold text-uppercase text-center mb-1">
+                      PassKeeper
+                    </h3>
+                    <h5 class="card-subtitle text-muted font-weight-bold text-uppercase text-center mb-2">
+                      Own project
+                    </h5>
+                    <p class="card-text text-center ">
+                      My attempt on an password keeper
+                    </p>
+                    <p class="mb-0 text-center text-sm">more info</p>
+                  </div>
+                  <div class="col-auto">
+                    <i class="fas fa-calendar fa-2x text-gray-300"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="studyproject text-center d-none" id="collapsepass">
+                <p>
+                  This is a project I attempted a year ago, but gave up. <a href="https://www.studydeluxe.com/">PassKeeper</a>
+                </p>
+              </div>
+            </div>
+          </div>
+
+       </div>
+      </div>
+
+      <div class="row">
+        <div class="full-pg contactme" id="contact">
+
+          <div class="col-12 subj-header half-pg text-center elem-center-ver">
+            <h1>Contact me</h1>
+            <h3>Contact me if you have any questions</h3>
+          </div>
+
+          <div class="col-s-12 col-m-8 col-lg-8">
+
+          <h2>I'll answer your questions as soon as possible</h2>
+            <form class="contact-form">
+              <label>Your Name - </label>
+              <input class="mb-9" type="text" name="name"  placeholder="Your name"><br>
+              <label>Phone Number - </label>
+              <input class="mb-9" type="text" name="phone" placeholder="Phone Number"><br>
+              <label>Your Email - </label>
+              <input class="mb-9" type="text" name="email" placeholder="Email"><br>
+              <label>Subject - </label>
+              <input class="mb-9" type="text" name="subject" placeholder="Subject"><br>
+              <label>Your Question - </label>
+              <input class="mb-9" type="text" name="question" placeholder="Your question"><br>
+            </form>
+          </div>
+
+         <div class="col-s-12 col-m-4 col-lg-4">
+          <h4>My Portolio</h4>
+           <h5>Kungsängen</h5>
+           <h5>Kista</h5>
+           <h5>Sverige</h5>
+           <br>
+
+           <h5>073 286 98 45</h5>
+           <h5>lars01olof@gmail.com</h5>
+
+           <div class="text-center-s" id="map">
+
+           </div>
+
+         </div>
+        </div>
+      </div>
+    </div>
+    </main>
+
+
+    <footer>
+      <span>© 2020 Timmie Oskarsson</span>
+    </footer>
+</div>
+
+
+
+</body>
+<!-- On bottom for faster load of site -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src='https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js'></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src='js/school.0.0.1.js'></script>
+<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+<script>
+
+  feather.replace();
+
+  mapboxgl.accessToken = 'pk.eyJ1IjoibGFyc29sb2YiLCJhIjoiY2tlaThiM2x2MjNmMTJybWlicnN1aHl0cCJ9.U_cW4cmsun342DWdVZKywA';
+  var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/satellite-streets-v11', // stylesheet location
+    center: [17.947567, 59.405679], // starting position [lng, lat]
+    zoom: 14 // starting zoom
+  });
+</script>
+
+</html>
